@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Data: raw files never go to GitHub
+data/*
+!data/.gitkeep
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# OS / editor
+Thumbs.db
+.vscode/duckdb-history.db
