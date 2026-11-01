@@ -14,3 +14,5 @@ data/*
 # OS / editor
 Thumbs.db
 .vscode/duckdb-history.db
+# Secrets
+.env
